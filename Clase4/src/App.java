@@ -9,12 +9,12 @@ public class App {
 
         Supermercado OXXO = new Supermercado("OXXO", "Calle 5ta", objTrabajador1);
         System.out.println(OXXO);
-        System.out.println(OXXO.totalPuntos(objCliente1));
-        System.out.println(OXXO.totalPuntos(objCliente2));
+        System.out.println(OXXO.totalPuntos(objCliente1) + " " + objCliente1.getNombre());
+        System.out.println(OXXO.totalPuntos(objCliente2) + " " + objCliente2.getNombre());
 
         Supermercado JUMBO = new Supermercado("JUMBO", "Calle 100", objTrabajador2);
         System.out.println(JUMBO);
-        System.out.println(JUMBO.totalPuntos(objCliente1));
+        System.out.println(JUMBO.totalPuntos(objCliente1) + " " + objCliente1.getNombre());
 
     }
 }
