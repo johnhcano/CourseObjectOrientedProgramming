@@ -27,4 +27,9 @@ public class Supermercado {
         return cliente.getPuntos();
     }
 
+    @Override
+    public String toString() {
+        return "Supermercado [direccion=" + direccion + ", nombre=" + nombre + ", trabajador=" + trabajador + "]";
+    }
+
 }
