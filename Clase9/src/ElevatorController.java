@@ -1,3 +1,5 @@
+//Class Diagram: http://www.web-feats.com/classes/dj/lessons/uml/elevator.htm
+
 public class ElevatorController {
 
     private int floorId;
