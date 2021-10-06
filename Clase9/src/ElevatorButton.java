@@ -13,7 +13,7 @@ public class ElevatorButton extends Button {
 
     @Override
     public String toString() {
-        return "ElevatorButton [floorNum=" + floorNum + "]";
-    }   
-    
+        return "ElevatorButton [ " + super.isIlluminate() + " floorNum=" + floorNum + "]";
+    }
+
 }
