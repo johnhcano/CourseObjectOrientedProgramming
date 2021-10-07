@@ -33,6 +33,4 @@ public class Elevator {
         return "Elevator [currentFloor=" + currentFloor + ", direction=" + direction + "]";
     }
 
-
-
 }
