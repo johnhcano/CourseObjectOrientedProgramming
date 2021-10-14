@@ -1,0 +1,49 @@
+Fecha Clase Jueves 14 de Octubre de 2021
+Asignación Temas Exposiciones para la Semana #13 - 2 y 4 de Noviembre de 2021
+
+Grupo 1 (3) -> Recursividad con JAVA
+Oscar Uchima
+Andrés Felipe Caicedo
+Juan Sebastián Roa 
+
+Grupo 2 (2) -> Recursividad con JAVA
+Angel Yesid Guetio
+Oscar Iván Zambrano
+
+Grupo 3 (3) -> Herencia Múltiple con JAVA
+Camilo Salas
+Cristian Osorio
+Alejandro Sánchez
+
+Grupo 4 (3) -> Herencia Múltiple con JAVA
+Daniel Medina Moreno
+Luisa Bustamante
+Laura Ricaurte
+
+Grupo 5 (2) -> Excepciones con JAVA
+Madelem Chico
+Kevin Villota
+Juan Nustes Leal
+
+Grupo 6 (3) -> Excepciones con JAVA
+Franz Landazuri
+Michael Zamora
+Carlos Soto
+
+Grupo 7 (3) -> Pruebas Unitarias con JAVA
+Daniel Bonilla
+Ruby yangana
+Yeifren Alexis Angulo
+
+Grupo 8 (3) -> Pruebas Unitarias con JAVA
+Frank Angelo Florez Carabali
+
+Grupo 9 (3) -> Pruebas Unitarias con JAVA
+Sharon Mape
+Mateo Zuluaga
+Hernan Triana
+
+Falta:
+Juber Molano Duarteo
+Edisson Barragan Jimenez
+Laura Reyes Garcia
