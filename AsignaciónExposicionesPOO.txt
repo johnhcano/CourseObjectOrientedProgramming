@@ -20,7 +20,7 @@ Daniel Medina Moreno
 Luisa Bustamante
 Laura Ricaurte
 
-Grupo 5 (2) -> Excepciones con JAVA
+Grupo 5 (3) -> Excepciones con JAVA
 Madelem Chico
 Kevin Villota
 Juan Nustes Leal
@@ -35,7 +35,7 @@ Daniel Bonilla
 Ruby yangana
 Yeifren Alexis Angulo
 
-Grupo 8 (3) -> Pruebas Unitarias con JAVA
+Grupo 8 (1) -> Pruebas Unitarias con JAVA
 Frank Angelo Florez Carabali
 
 Grupo 9 (3) -> Pruebas Unitarias con JAVA
@@ -43,7 +43,9 @@ Sharon Mape
 Mateo Zuluaga
 Hernan Triana
 
-Falta:
-Juber Molano Duarteo
+Grupo 10 (2) -> Recursividad con JAVA
 Edisson Barragan Jimenez
 Laura Reyes Garcia
+
+Falta:
+Juber Molano Duarte
