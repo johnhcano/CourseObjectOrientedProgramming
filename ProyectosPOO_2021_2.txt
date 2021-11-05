@@ -1,0 +1,37 @@
+"Frank Angelo Florez Carabali" <frank.florezc@campusucc.edu.co> 
+"Daniel Bonilla Lara" <daniel.bonillal@campusucc.edu.co> 
+"Carlos Andres Soto Cardona" <carlos.sotoca@campusucc.edu.co> 
+"Juber Molano Duarte" <juber.molano@campusucc.edu.co> 
+"Angel Yesid Guetio Guetio" <angel.guetio@campusucc.edu.co> 
+"Juan Sebastian Roa Salamanca" <juan.roasal@campusucc.edu.co> 
+"Andres Felipe Caicedo Cruz" <andres.caicedocruz@campusucc.edu.co> 
+"Madelem Chico Velasco" <madelem.chico@campusucc.edu.co> 
+"Kevin Daniel Villota Valencia" <kevin.villota@campusucc.edu.co> 
+"Oscar Alfredo Uchima" <oscar.uchima@campusucc.edu.co> 
+"Oscar Ivan Zambrano Chavez" <oscar.zambranoch@campusucc.edu.co> 
+"Mateo Zuluaga Roncancio" <mateo.zuluagaron@campusucc.edu.co> 
+"Laura Ricaurte Larrota" <laura.ricaurte@campusucc.edu.co> 
+"Luisa Bustamante Molano" <luisa.bustamante@campusucc.edu.co> 
+"Hernan Triana Gutierrez" <hernan.triana@campusucc.edu.co> 
+"Sharon Mape Giraldo" <sharon.mape@campusucc.edu.co> 
+"Edisson Barragan Jimenez" <edisson.barragan@campusucc.edu.co> 
+"Laura Reyes Garcia" <laura.reyesga@campusucc.edu.co> 
+"Daniel Medina Moreno" <daniel.medinam@campusucc.edu.co> 
+"Juan Nustes Leal" <juan.nustes@campusucc.edu.co> 
+"Michael Zamora Chanchi" <michael.zamora@campusucc.edu.co> 
+"Franz Landazuri Cuero" <franz.landazuri@campusucc.edu.co> 
+"Cristian Osorio Vernaza" <cristian.osoriove@campusucc.edu.co> 
+"Alejandro Sanchez Hernandez" <alejandro.sanchezh@campusucc.edu.co> 
+"Luis Salas Ballesteros" <luis.salasb@campusucc.edu.co> 
+"Yeifren Angulo Angulo" <yeifren.angulo@campusucc.edu.co> 
+"Ruby Yangana Medina" <ruby.yangana@campusucc.edu.co>
+
+Proyectos.
+1. Gestión académica de los estudiantes
+2. Agendamiento de citas Médicas
+3. Solicitud de servicios bibliotecarios (Libros, videos, espacios)
+4. Sistema de horarios Facultad de Ingeniería
+1. Gestión académica de los estudiantes
+2. Agendamiento de citas Médicas
+3. Solicitud de servicios bibliotecarios (Libros, videos, espacios)
+4. Sistema de horarios Facultad de Ingeniería
