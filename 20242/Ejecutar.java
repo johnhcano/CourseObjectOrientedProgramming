@@ -40,7 +40,8 @@ public class Ejecutar {
          *    Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga. 
          */
 
-         /* Solución ejercicio 1.
+         /* 
+          * Solución ejercicio #1.
           * Entrada: lado del cuadrado -> b
           * Proceso: areaCuadrado = b * b
           * Salida: areaCuadrado
@@ -54,6 +55,21 @@ public class Ejecutar {
         System.out.println("Área del Cuadrado = " + areaCuadrado); //Mensaje de salida
 
         //Para concatenar texto con variables se utiliza el signo (+)
+
+        /*
+         * Solución ejercicio #2
+         * Entrada: radio del círculo, PI(constante)
+         * Proceso: areaCirculo = PI*(r*r)
+         * Salida: areaCirculo
+         */
+        double r = 0.0; //variable
+        final double PI = 3.1416; //constante
+        double areaCirculo = 0.0;
+
+        r = 3;
+        areaCirculo = PI * (r * r);
+
+        System.out.println("El área del círculo es: " + areaCirculo);
 
 
     }
