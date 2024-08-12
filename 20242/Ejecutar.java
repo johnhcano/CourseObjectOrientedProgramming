@@ -33,7 +33,7 @@ public class Ejecutar {
          *    teniendo uno de sus lados. areaCuadrado = b^2 
          * 2. Diseñe un algoritmo que calcule el área de un círculo. areaCirculo = π r^2 
          * 3. Diseñe un algoritmo que convierta de grados centígrados a grados fahrenheit y 
-         *    viceversa.
+         *    viceversa. C = F * (9/5) + 32    --   F = C - 32  * (5/9) 
          * 4. Diseñe un algoritmo para calcular el salario de un empleado. 
          *    salarioNeto = (salarioBruto - deducciones) + comisión 
          * 5. Diseñe un algoritmo para convertir pesos a dolares y pesos a euros.
@@ -70,9 +70,27 @@ public class Ejecutar {
         r = 3;
         //areaCirculo = PI * (r * r);
         areaCirculo = Math.PI * Math.pow(r,2);
-        
-        System.out.println("El área del círculo es: " + areaCirculo);
 
+        System.out.println("El área del círculo es: " + areaCirculo);
+        /*
+         * Solución ejercicio #3
+         * Entrada: Grados Centígrados (C), Grados Farenheit (F)
+         * Proceso: Calcular las formulas C = F * (9/5) + 32    --   F = C - 32  * (5/9)
+         * Salida: la conversion entre los grados Centígrados y Farenheit
+         */
+        
+        double C = 0.0;
+        double F = 0.0;
+
+        //valores de las temperaturas
+        C = 1;
+        F = 1;
+
+        double gradosCentigrados = ((F - 32.0) / (9.0/5.0));
+        double gradosFarenheit = C * (9.0/5.0) + 32.0;
+
+        System.out.println(F + " °F a °C: " + gradosCentigrados);
+        System.out.println(C + " °C a °F: " + gradosFarenheit);
 
     }
 }
