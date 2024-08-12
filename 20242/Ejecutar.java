@@ -95,7 +95,7 @@ public class Ejecutar {
         /*
          * Actividad Independiente
          * Métodos en JAVA
-         * Los ejercicios anterires implementarlos con métodos.
+         * Los ejercicios anteriores implementarlos con métodos.
          * Tener en cuenta el concepto de la firma del método.
          */
 
