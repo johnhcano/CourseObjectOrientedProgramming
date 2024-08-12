@@ -32,10 +32,11 @@ public class Ejecutar {
          * 1. Diseñe un algoritmo que calcule el área de un cuadrado, 
          *    teniendo uno de sus lados. areaCuadrado = b^2 
          * 2. Diseñe un algoritmo que calcule el área de un círculo. areaCirculo = π r^2 
-         * 3. Diseñe un algoritmo que convierta de grados centígrados a grados fahrenheit y  viceversa 
+         * 3. Diseñe un algoritmo que convierta de grados centígrados a grados fahrenheit y 
+         *    viceversa.
          * 4. Diseñe un algoritmo para calcular el salario de un empleado. 
          *    salarioNeto = (salarioBruto - deducciones) + comisión 
-         * 5. Diseñe un algoritmo para convertir pesos a dolares y pesos a euros 
+         * 5. Diseñe un algoritmo para convertir pesos a dolares y pesos a euros.
          * 6. Diseñe un algoritmo para calcular el pago de un parqueadero por horas. 
          *    Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga. 
          */
@@ -67,8 +68,9 @@ public class Ejecutar {
         double areaCirculo = 0.0;
 
         r = 3;
-        areaCirculo = PI * (r * r);
-
+        //areaCirculo = PI * (r * r);
+        areaCirculo = Math.PI * Math.pow(r,2);
+        
         System.out.println("El área del círculo es: " + areaCirculo);
 
 
