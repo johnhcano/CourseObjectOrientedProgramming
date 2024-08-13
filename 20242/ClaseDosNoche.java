@@ -67,12 +67,25 @@ public class ClaseDosNoche {
          * Solución ejercicio #1
          * Entrada: lado del cuadrado
          * Proceso: areaCuadrado = b * b
-         * Salida: Area del cuadrado --> areaCuadrado
+         * Salida: Área del cuadrado --> areaCuadrado
          */
 
         double lado = 2.0;
         double areaCuadrado = lado * lado;
         System.out.println("El área del cuadrado es: " + areaCuadrado);
+
+                /*
+         * Solución ejercicio #2
+         * Entrada: radio del círculo, PI
+         * Proceso: areaCirculo = PI * (r * r)
+         * Salida: Área del Círculo -> areaCirculo
+         */
+
+         double r = 3.5;
+         final double PI = 3.1416; //Constante
+         double areaCirculo = PI * (r * r);
+         System.out.println("El área del círculo es: " + areaCirculo);
+
 
     }
 }
