@@ -106,5 +106,11 @@ public class ClaseDosNoche {
         System.out.println(C + "°C equivale a " + gradosFarenheit + "°F");
         System.out.println(C + "°F equivale a " + gradosCentigrados + "°C");
         
+
+        /* Trabajo independiente (Próxima clase):
+         * Terminar los ejercicios y pasarlos a métodos de una clase.
+         * Importante la firma del método.
+         */
+
     }
 }
