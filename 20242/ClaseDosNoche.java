@@ -63,6 +63,12 @@ public class ClaseDosNoche {
          * 6. Diseñe un algoritmo para calcular el pago de un parqueadero por horas. Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga.
          */
         
+        /*
+         * Solución ejercicio #1
+         * Entrada:
+         * Proceso:
+         * Salida:
+         */
 
     }
 }
