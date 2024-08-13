@@ -46,7 +46,22 @@ public class ClaseDosNoche {
         b = aux;
         System.out.println("a:" + a + " b:" + b);
 
+        /*
+         * Reglas de Prioridad - PEMDAS
+         * Paréntesis - Exponente - Multiplicación - División - Adición(Suma) - Sustracción(Resta) 
+         */
 
+        /*
+         * 1. Diseñe un algoritmo que calcule el área de un cuadrado, teniendo uno de sus  lados.
+         * A = b^2 
+         * 2. Diseñe un algoritmo que calcule el área de un círculo. A = π r^2 
+         * 3. Diseñe un algoritmo que convierta de grados centígrados a grados fahrenheit 
+         * y viceversa
+         * 4. Diseñe un algoritmo para calcular el salario de un empleado. 
+         * salarioNeto = (salarioBruto - deducciones) + comisión
+         * 5. Diseñe un algoritmo para convertir pesos a dolares y pesos a euros
+         * 6. Diseñe un algoritmo para calcular el pago de un parqueadero por horas. Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga.
+         */
         
 
     }
