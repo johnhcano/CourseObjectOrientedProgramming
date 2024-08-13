@@ -20,7 +20,7 @@ public class ClaseDosNoche {
          * Tipos de Datos
          * 
          * Numéricos -> Enteros (int, long), Reales (float, double)
-         * Lógicos -> Booleanos (boolean)
+         * Lógicos -> Booleanos (boolean) true/false  ---  1/0
          * Texto -> Cadenas (String), caracter (char)
          * 
          * Palabras reservadas del lenguaje JAVA
@@ -37,7 +37,15 @@ public class ClaseDosNoche {
         //Para concatenar cadenas y variables se utiliza el operador (+)
         System.out.println("La suma entre " + a + " y " + b + " es: " + c);
 
-        
+        //Variables Auxiliares
+        int aux = 0;
+
+        System.out.println("a:" + a + " b:" + b);
+        aux = a;
+        a = b;
+        b = aux;
+        System.out.println("a:" + a + " b:" + b);
+
 
         
 
