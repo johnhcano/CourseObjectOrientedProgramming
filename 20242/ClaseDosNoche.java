@@ -53,7 +53,7 @@ public class ClaseDosNoche {
 
         /*
          * 1. Diseñe un algoritmo que calcule el área de un cuadrado, teniendo uno de sus  lados.
-         * A = b^2 
+         * A = lado^2 
          * 2. Diseñe un algoritmo que calcule el área de un círculo. A = π r^2 
          * 3. Diseñe un algoritmo que convierta de grados centígrados a grados fahrenheit 
          * y viceversa
@@ -65,10 +65,14 @@ public class ClaseDosNoche {
         
         /*
          * Solución ejercicio #1
-         * Entrada:
-         * Proceso:
-         * Salida:
+         * Entrada: lado del cuadrado
+         * Proceso: areaCuadrado = b * b
+         * Salida: Area del cuadrado --> areaCuadrado
          */
+
+        double lado = 2.0;
+        double areaCuadrado = lado * lado;
+        System.out.println("El área del cuadrado es: " + areaCuadrado);
 
     }
 }
