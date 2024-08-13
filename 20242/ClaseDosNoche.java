@@ -74,7 +74,7 @@ public class ClaseDosNoche {
         double areaCuadrado = lado * lado;
         System.out.println("El área del cuadrado es: " + areaCuadrado);
 
-                /*
+        /*
          * Solución ejercicio #2
          * Entrada: radio del círculo, PI
          * Proceso: areaCirculo = PI * (r * r)
@@ -86,6 +86,25 @@ public class ClaseDosNoche {
          double areaCirculo = PI * (r * r);
          System.out.println("El área del círculo es: " + areaCirculo);
 
+        /*
+         * Solución ejercicio #3
+         * Entrada: °C y °F
+         * Proceso: °C = (°F - 32) * (5/9) , °F = (°C * (9/5)) + 32
+         * Salida: °C -> °F , °F -> °C
+         */
 
+        double C = 0.0;
+        double F = 0.0;
+        double gradosFarenheit = 0.0;
+        double gradosCentigrados = 0.0;
+        
+        C = 1.0; //33.8°F
+        F = 1.0; //-17.2222
+        gradosCentigrados = (F - 32.0) * (5.0/9.0);
+        gradosFarenheit = (C * (9.0/5.0)) + 32.0;
+
+        System.out.println(C + "°C equivale a " + gradosFarenheit + "°F");
+        System.out.println(C + "°F equivale a " + gradosCentigrados + "°C");
+        
     }
 }
