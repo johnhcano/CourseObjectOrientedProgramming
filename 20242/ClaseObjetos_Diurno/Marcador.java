@@ -35,7 +35,7 @@ public class Marcador {
      * recibe 1 parámetro o argumento de tipo real(double)
      */
     public String recargar(double cantidad){
-        
+        return "El marcador se recargó con " + cantidad + "ml";
     }
 
 }
