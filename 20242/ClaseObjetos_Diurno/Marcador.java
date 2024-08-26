@@ -38,6 +38,8 @@ public class Marcador {
         return "El marcador se recargó con " + cantidad + "ml";
     }
 
-
+    public String toString(){
+        return "{ Marcador : Nombre: " + nombre + " Color: " + color + " Diámetro: " + diametro + " esBorrable: " + esBorrable + " }"; 
+    }
 
 }
