@@ -1,4 +1,3 @@
-//package ClaseObjetosNocturno;
 public class Computador {
 
     // Atributos de la clase
