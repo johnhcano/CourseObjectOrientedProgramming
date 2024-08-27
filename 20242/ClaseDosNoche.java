@@ -60,7 +60,8 @@ public class ClaseDosNoche {
          * 4. Diseñe un algoritmo para calcular el salario de un empleado. 
          * salarioNeto = (salarioBruto - deducciones) + comisión
          * 5. Diseñe un algoritmo para convertir pesos a dolares y pesos a euros
-         * 6. Diseñe un algoritmo para calcular el pago de un parqueadero por horas. Valor de  la hora $2000 también se debe discriminar el IVA del 20% que se paga.
+         * 6. Diseñe un algoritmo para calcular el pago de un parqueadero por horas. 
+         *    Valor de la hora $2000 también se debe discriminar el IVA del 20% que se paga.
          */
         
         /*
@@ -107,10 +108,26 @@ public class ClaseDosNoche {
         System.out.println(C + "°F equivale a " + gradosCentigrados + "°C");
         
 
+        /*
+         * Solución ejercicio #6
+         * Entrada: horas
+         * Proceso: multiplicar las horas por el valor de la hora y discriminar el IVA 20%
+         * Salida: recibo de pago por las horas en el parqueadero
+         */
+
+        final int VALOR_HORA = 2000;
+        int cantidadHoras = 3;
+        int totalPago = VALOR_HORA * cantidadHoras;
+        double iva = totalPago * 0.20;
+        System.out.println("Pago: " + totalPago + " IVA: " + iva);
+
+        
         /* Trabajo independiente (Próxima clase):
          * Terminar los ejercicios y pasarlos a métodos de una clase.
          * Importante la firma del método.
          */
+
+        
 
     }
 }
