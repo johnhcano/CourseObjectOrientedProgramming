@@ -12,7 +12,6 @@ public class Ejecutar {
         objComputador1.reubicar("Ingeniería");
         objComputador2.asignar("David");
 
-
     }
 
 }
