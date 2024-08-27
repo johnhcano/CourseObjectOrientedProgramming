@@ -35,6 +35,6 @@ public class Computador {
     }
 
     public String toString(){
-        return "Computador { marca: " + marca + " color: " + color + " modelo " + modelo +" serie " + serie + " pulgadas " + pulgadasPantalla+"}";
+        return "Computador { marca: " + marca + " color: " + color + " modelo " + modelo +" serie " + serie + " pulgadas " + pulgadasPantalla+ " }";
     }
 }
