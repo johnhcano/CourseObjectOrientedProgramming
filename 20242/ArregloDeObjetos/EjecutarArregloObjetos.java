@@ -29,8 +29,24 @@ public class EjecutarArregloObjetos {
         objP1.setNombre("Pizza Mediana");
         System.out.println(objP1.getNombre());
         System.out.println(objP1);
-        
 
+        //Se crea el arreglo de objetos (Producto)
+        Producto[] p = new Producto[3];
+        //Se guardan los objetos creados en el arreglo de tipo Producto
+        p[0] = objP1;
+        p[1] = objP2;
+        p[2] = objP3;
+        
+        //Calcular el precio total de todos los productos que estan dentro
+        // del arreglo
+
+        double precioTotal = 0.0;
+        for(int i = 0; i < p.length; i++){
+            precioTotal += p[i].getPrecio();
+            System.out.printf("%d\t %s\t %10.2f\t \n", p[i].getId(), p[i].getNombre(), p[i].getPrecio());
+        }
+
+    System.out.println("La factura está por: " + precioTotal);
 
 
     }
