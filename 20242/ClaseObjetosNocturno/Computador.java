@@ -16,6 +16,8 @@ public class Computador {
         this.pulgadasPantalla = pulgadasPantalla;
     }
 
+
+    
     // Métodos de la clase
     public boolean encender() {
         return true;
