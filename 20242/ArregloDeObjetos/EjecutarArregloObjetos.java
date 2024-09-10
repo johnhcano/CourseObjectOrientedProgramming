@@ -43,7 +43,7 @@ public class EjecutarArregloObjetos {
         double precioTotal = 0.0;
         for(int i = 0; i < p.length; i++){
             precioTotal += p[i].getPrecio();
-            System.out.printf("%d\t %s\t %10.2f\t \n", p[i].getId(), p[i].getNombre(), p[i].getPrecio());
+            System.out.printf("%d %10s %10.2f \n", p[i].getId(), p[i].getNombre(), p[i].getPrecio());
         }
 
     System.out.println("La factura está por: " + precioTotal);
