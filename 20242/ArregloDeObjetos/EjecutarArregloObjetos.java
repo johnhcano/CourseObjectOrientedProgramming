@@ -18,6 +18,19 @@ public class EjecutarArregloObjetos {
             System.out.println("b["+ i + "] = " + b[i]);
         }
 
+        //------------------ Arreglo de Objetos ------------------
+
+        Producto objP1 = new Producto(1, "Pizza", 19900.0);
+        Producto objP2 = new Producto(2, "Perrito Caliente", 15000.0);
+        Producto objP3 = new Producto(3, "Hamburguesa", 25000.0);
+
+        System.out.println(objP1);
+        System.out.println(objP1.getNombre());
+        objP1.setNombre("Pizza Mediana");
+        System.out.println(objP1.getNombre());
+        System.out.println(objP1);
+        
+
 
 
     }
