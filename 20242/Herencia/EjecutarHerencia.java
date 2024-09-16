@@ -11,5 +11,8 @@ public class EjecutarHerencia {
         System.out.println("Salario Vendedor: " + objT1.salario());
         System.out.println("Salario Operario: " + objT3.salario());
 
+        System.out.println(objT1 instanceof Vendedor); // prints true
+        System.out.println(objT1 instanceof Trabajador); // prints true
+        
     }
 } 
