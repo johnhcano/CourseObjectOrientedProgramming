@@ -13,7 +13,7 @@ public class Vendedor extends Trabajador {
     }
 
     public double salario(){
-        return VENTA * 1.20;
+        return (VENTA * (comision/100)) + VENTA;
     }
     
 }
