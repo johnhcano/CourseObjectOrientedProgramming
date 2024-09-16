@@ -9,7 +9,7 @@ public class Trabajador {
         this.nombre = nombre;
         this.area = area;
     }
-
+    
     public int getId() {
         return id;
     }
