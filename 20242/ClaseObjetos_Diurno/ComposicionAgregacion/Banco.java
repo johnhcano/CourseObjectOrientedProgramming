@@ -3,14 +3,14 @@ public class Banco {
     //Atributos
     private String NIT;
     private String razonSocial;
-
-    //constructor
-    public Banco(String NIT, String razonSocial){
-        this.NIT = NIT;
+    private Cuenta cuenta;
+    
+    public Banco(String nIT, String razonSocial, Cuenta cuenta) {
+        NIT = nIT;
         this.razonSocial = razonSocial;
+        this.cuenta = cuenta;
     }
 
-    //Métodos
     public String getNIT() {
         return NIT;
     }
@@ -27,11 +27,25 @@ public class Banco {
         this.razonSocial = razonSocial;
     }
 
+    public Cuenta getCuenta() {
+        return cuenta;
+    }
+
+    public void setCuenta(Cuenta cuenta) {
+        this.cuenta = cuenta;
+    }
+
     @Override
     public String toString() {
-        return "Banco [NIT=" + NIT + ", razonSocial=" + razonSocial + "]";
+        return "Banco [NIT=" + NIT + ", razonSocial=" + razonSocial + ", cuenta=" + cuenta + "]";
+    }
+
+    public boolean esCliente(Cliente cliente){
+        boolean flag = false;
+        if (cliente instanceof Cliente){
+            flag = true;
+        }
+        return flag;
     }
     
-    
-
 }
