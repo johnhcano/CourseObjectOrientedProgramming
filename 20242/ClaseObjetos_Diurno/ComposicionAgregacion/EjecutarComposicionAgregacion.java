@@ -11,7 +11,9 @@ public class EjecutarComposicionAgregacion {
 
         System.out.println(objBanco1.esCliente(objCliente1));
 
-        System.out.println("Transacción: " + objCuenta1.consignar(objCuenta1.getNroCuenta(), 150000.0));
+        //System.out.println("Transacción: " + objCuenta1.consignar(objCuenta1.getNroCuenta(), 150000.0));
+        
+        System.out.println(objCuenta1.consignarMsg(objCuenta1.getNroCuenta(), 150000.0));
 
         System.err.println(objCuenta1);
 
