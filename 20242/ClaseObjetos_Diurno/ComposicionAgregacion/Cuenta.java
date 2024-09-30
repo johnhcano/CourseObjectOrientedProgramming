@@ -39,4 +39,25 @@ public class Cuenta {
         return "Cuenta [nroCuenta=" + nroCuenta + ", tipoCuenta=" + tipoCuenta + ", saldo=" + saldo + "]";
     }
 
+    public boolean consignar(String nroCuenta, double monto){
+        boolean flag = false;
+        if (nroCuenta.equals("709876")){
+            saldo += monto;
+            flag = true;
+        }
+        return flag;
+    }
+
+    public String consignarMsg(String nroCuenta, double monto){
+        String msg = "";
+        if (nroCuenta.equals("709876")){
+            saldo += monto;
+            msg = "Transacción Exitosa...saldo actual = " + saldo;
+        }else{
+            msg = "Error en la transacción";
+        } 
+        return msg;
+        
+    }
+
 }

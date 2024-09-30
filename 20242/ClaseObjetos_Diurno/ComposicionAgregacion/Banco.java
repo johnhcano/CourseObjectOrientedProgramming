@@ -5,8 +5,8 @@ public class Banco {
     private String razonSocial;
     private Cuenta cuenta;
     
-    public Banco(String nIT, String razonSocial, Cuenta cuenta) {
-        NIT = nIT;
+    public Banco(String NIT, String razonSocial, Cuenta cuenta) {
+        this.NIT = NIT;
         this.razonSocial = razonSocial;
         this.cuenta = cuenta;
     }
@@ -15,8 +15,8 @@ public class Banco {
         return NIT;
     }
 
-    public void setNIT(String nIT) {
-        NIT = nIT;
+    public void setNIT(String NIT) {
+        this.NIT = NIT;
     }
 
     public String getRazonSocial() {
@@ -47,5 +47,5 @@ public class Banco {
         }
         return flag;
     }
-    
+
 }
