@@ -1,20 +1,20 @@
-import java.sql.Date;
+import java.time.LocalDateTime;
 
 public class Cita {
     
-    private Date fecha;
+    private LocalDateTime fecha;
     private String especialista;
 
-    public Cita(Date fecha, String especialista){
+    public Cita(LocalDateTime fecha, String especialista){
         this.fecha = fecha;
         this.especialista = especialista;
     }
 
-    public Date getFecha(){
+    public LocalDateTime getFecha(){
         return fecha;
     }
 
-    public void setFecha(Date fecha){
+    public void setFecha(LocalDateTime fecha){
         this.fecha = fecha;
     }
     
