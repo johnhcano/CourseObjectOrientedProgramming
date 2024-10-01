@@ -7,11 +7,11 @@ public class Paciente {
     private char genero;
     private Cita cita;
     
-    public Paciente(int identificacion, String nombreCompleto, int edad, String ePS, char genero, Cita cita) {
+    public Paciente(int identificacion, String nombreCompleto, int edad, String EPS, char genero, Cita cita) {
         this.identificacion = identificacion;
         this.nombreCompleto = nombreCompleto;
         this.edad = edad;
-        EPS = ePS;
+        this.EPS = EPS;
         this.genero = genero;
         this.cita = cita;
     }
@@ -44,8 +44,8 @@ public class Paciente {
         return EPS;
     }
 
-    public void setEPS(String ePS) {
-        EPS = ePS;
+    public void setEPS(String EPS) {
+        this.EPS = EPS;
     }
 
     public char getGenero() {
