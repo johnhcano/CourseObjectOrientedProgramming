@@ -14,5 +14,7 @@ public class EjecutarComposicionAgregacion {
         Paciente paciente1 = new Paciente(1006, "Alexandra Merchan", 17, "SURA", 'F', objCita1);
 
         System.out.println(paciente1);
+
+        System.out.println(paciente1.verHistoriaClinica(objHistoriaClinica));
     }
 }
