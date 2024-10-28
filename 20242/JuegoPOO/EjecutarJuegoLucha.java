@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class EjecutarJuegoLucha {
     // Metodo principal que ejecuta el juego
     public static void main(String[] args) {
+        
         Scanner leer = new Scanner(System.in);
         System.out.print(" Introduce el nombre del jugador 1: ");
         String nombre1 = leer.nextLine ();
