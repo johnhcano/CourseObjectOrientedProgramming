@@ -1,8 +1,8 @@
 import java.util.Random;
 
-class Personaje {
+abstract class Personaje {
 
-    private String nombre;
+    protected String nombre;
     protected int puntosDeVida;
 
     private final int MAX_DANO = 30;
@@ -15,13 +15,7 @@ class Personaje {
     }
 
     // Metodo para realizar un ataque a otro personaje
-    public void atacar(Personaje oponente) {
-        Random rand = new Random();
-        int dano = rand.nextInt((MAX_DANO - MIN_DANO) + 1) + MIN_DANO; // Dano entre 10 y 30
-
-        oponente.recibirDano(dano);
-        System.out.println(this.nombre + " ataca a " + oponente.getNombre() + " causando " + dano + " puntos de dano.");
-    }
+    abstract void atacar(Personaje oponente);
 
     // Metodo para recibir dano
     public void recibirDano(int dano) {
