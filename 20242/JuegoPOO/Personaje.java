@@ -3,12 +3,13 @@ import java.util.Random;
 class Personaje {
 
     private String nombre ;
-    private int puntosDeVida ;
+    protected int puntosDeVida ;
+    
     private final int MAX_DANO = 30;
     private final int MIN_DANO = 10;
 
     // Constructor para inicializar los datos del personaje
-    public Personaje (String nombre) {
+    public Personaje(String nombre) {
         this.nombre = nombre;
         this.puntosDeVida = 100; // Todos comienzan con 100 puntos de vida
     }
@@ -42,6 +43,6 @@ class Personaje {
     
     // Devuelve los puntos de vida actuales
     public int getPuntosDeVida() {
-        return this . puntosDeVida;
+        return this.puntosDeVida;
     }
 }
