@@ -9,7 +9,7 @@ class Personaje {
 
     // Constructor para inicializar los datos del personaje
     public Personaje (String nombre) {
-        this.nombre = nombre ;
+        this.nombre = nombre;
         this.puntosDeVida = 100; // Todos comienzan con 100 puntos de vida
     }
 
