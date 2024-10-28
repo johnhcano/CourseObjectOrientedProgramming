@@ -12,6 +12,8 @@ public class EjecutarJuegoLucha {
         
         JuegoLucha juego = new JuegoLucha(nombre1, nombre2);
         juego.iniciarPelea();
+
+        leer.close();
     }
 
 }
