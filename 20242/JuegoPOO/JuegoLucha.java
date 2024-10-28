@@ -23,7 +23,7 @@ public class JuegoLucha {
         if (jugador1.estaVivo()) {
             System.out.println(jugador1.getNombre() + " ha ganado la pelea .");
         } else {
-            System.out.println(jugador2.getNombre() + " ha ganado la pelea .");
+            System.out.println(jugador2.getNombre() + " ha ganado la pelea.");
         }
     }
 
@@ -32,6 +32,6 @@ public class JuegoLucha {
         System.out.println(" Turno de " + atacante.getNombre() + ". Puntos de vida de " + defensor.getNombre() + ": "
                 + defensor.getPuntosDeVida());
         atacante.atacar(defensor);
-        System.out.println(defensor.getNombre() + " ahora tiene " + defensor.getPuntosDeVida() + " puntos de vida .");
+        System.out.println(defensor.getNombre() + " ahora tiene " + defensor.getPuntosDeVida() + " puntos de vida.");
     }
 }
