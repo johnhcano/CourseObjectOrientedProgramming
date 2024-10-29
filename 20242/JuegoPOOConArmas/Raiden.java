@@ -13,7 +13,7 @@ public class Raiden extends Personaje {
         String ataque = "";
         int dano = 0;
         Random rand = new Random();
-        int op = rand.nextInt(( 4 - 1 ) + 1) + 1; // Opciones entre 1 y 3
+        int op = rand.nextInt(( 4 - 1 ) + 1) + 1; // Opciones entre 1 y 4
         switch(op){
             case 1: dano = 50; //puño
                     ataque = " puño ";
