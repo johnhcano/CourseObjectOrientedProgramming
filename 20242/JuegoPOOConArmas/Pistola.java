@@ -7,8 +7,16 @@ public class Pistola extends Arma {
         this.calibre = calibre;
     }
 
+    public Pistola(){
+        
+    }
+
     public String getCalibre() {
         return calibre;
+    }
+
+    public String mostrarArma(){
+        return getNombre();
     }
 
 }

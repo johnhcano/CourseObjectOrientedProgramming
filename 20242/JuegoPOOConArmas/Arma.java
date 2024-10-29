@@ -8,6 +8,10 @@ public class Arma {
         this.afectacion = afectacion;
     }
 
+    public Arma(){
+        
+    }
+
     public String getNombre() {
         return nombre;
     }

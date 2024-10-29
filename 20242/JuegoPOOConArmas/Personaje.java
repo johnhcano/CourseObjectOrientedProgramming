@@ -4,6 +4,7 @@ abstract class Personaje {
 
     protected String nombre;
     protected int puntosDeVida;
+    protected Arma arma;
 
     private final int MAX_DANO = 30;
     private final int MIN_DANO = 10;
@@ -12,6 +13,7 @@ abstract class Personaje {
     public Personaje(String nombre) {
         this.nombre = nombre;
         this.puntosDeVida = 100; // Todos comienzan con 100 puntos de vida
+        this.arma = new Arma();
     }
 
     // Metodo para realizar un ataque a otro personaje

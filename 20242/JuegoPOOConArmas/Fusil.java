@@ -11,4 +11,8 @@ public class Fusil extends Arma {
         return calibre;
     }
 
+    public String mostrarArma(){
+        return getNombre();
+    }
+
 }

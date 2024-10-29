@@ -11,4 +11,8 @@ public class Cuchillo extends Arma {
         return tipo;
     }
 
+    public String mostrarArma(){
+        return getNombre();
+    }
+
 }

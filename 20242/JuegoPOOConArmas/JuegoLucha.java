@@ -28,7 +28,7 @@ public class JuegoLucha {
     }
 
     // Metodo que representa un turno de ataque
-    private void turno(Personaje atacante, Personaje defensor) {
+    private void turno(Personaje atacante, Personaje defensor, Arma arma) {
         System.out.println(" Turno de " + atacante.getNombre() + ". Puntos de vida de " + defensor.getNombre() + ": "
                 + defensor.getPuntosDeVida());
         atacante.atacar(defensor);
