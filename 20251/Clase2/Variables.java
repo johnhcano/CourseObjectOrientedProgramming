@@ -22,6 +22,5 @@ public class Variables {
         System.out.println("Nombre: " + nombre + ", Edad: " + edad + ", Altura: " + altura);
         System.out.println("Estudiante: " + esEstudiante);
 
-
     }
 }
