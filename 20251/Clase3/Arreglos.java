@@ -18,7 +18,6 @@ public class Arreglos {
         }
 
         // ---------------------------
-
         int tam = 10;
         int[] b = new int[tam];
 
