@@ -21,11 +21,12 @@ public class Ejercicio11 {
         }
 
         // Mostrar el arreglo para validar que se están guardando los elementos
-        for (int i = 0; i < a.length; i++) {
+        /*for (int i = 0; i < a.length; i++) {
             System.out.print("|" + a[i]);
-        }
+        }*/
+        System.out.println(Arrays.toString(a));
 
-        System.out.println();
+        //System.out.println();
 
         // Se va a recorrer el arreglo para determinar cuántos números son positivos,
         // negativos y cero
@@ -63,7 +64,5 @@ public class Ejercicio11 {
         System.out.println(Arrays.toString(positivos));
         System.out.println(Arrays.toString(negativos));
         System.out.println(Arrays.toString(ceros));
-        
-
     }
 }
