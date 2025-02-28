@@ -1,9 +1,7 @@
 public class Ejecutar {
-    
     public static void main(String[] args) {
         
-        //Creación de los objetos de la clase Vehiculo
-
+        //Creación de los objetos de la clase Vehículo
         //Forma1
         Vehiculo objVehiculo1 = new Vehiculo("Toyota", "Blanco", 4500.0, "TS3456WE", 2.3, "150HP");
 
@@ -20,7 +18,5 @@ public class Ejecutar {
         //Mostrar todo objeto
         System.out.println(objVehiculo1.toString());
         System.out.println(objVehiculo2);
-
-
     }
 }
