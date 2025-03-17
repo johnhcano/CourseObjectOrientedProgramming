@@ -6,6 +6,15 @@ public class Estudiante {
     private int edad;
     private String facultad;
 
+    //Constructor de la clase: permite inicializar la clase
+    //this --> autoreferencia a los atributos de la clase
+    public Estudiante(int id, String nombre, String apellido, int edad, String facultad){
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.facultad = facultad;
+    }
     //Métodos
     public void matricularCursos(String curso){
         System.out.println("Curso: " + curso + " Matriculado!!.");
