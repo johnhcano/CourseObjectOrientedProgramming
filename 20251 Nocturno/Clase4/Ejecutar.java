@@ -18,5 +18,10 @@ public class Ejecutar {
         //Mostrar todo objeto
         System.out.println(objVehiculo1.toString());
         System.out.println(objVehiculo2);
+
+        System.out.println(objVehiculo1.getMarca());
+        objVehiculo1.acelerar();
+        System.out.println(objVehiculo2.getMarca());
+        objVehiculo2.frenar();
     }
 }
