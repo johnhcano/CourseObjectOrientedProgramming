@@ -14,9 +14,9 @@ public class Consultor extends Trabajador {
 
     public String toString() {
         return "Consultor { idTrabajador: " + super.getIdTrabajador() +
-                "Nombre: " + super.getNombre() +
-                "Apellido: " + super.getApellido() +
-                "Comisión: " + comision + "}";
+                " Nombre: " + super.getNombre() +
+                " Apellido: " + super.getApellido() +
+                " Comisión: " + comision + "}";
     }
 
 }
