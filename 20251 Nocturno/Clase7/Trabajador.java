@@ -13,15 +13,19 @@ public class Trabajador {
     }
 
     // métodos getter
-    public String getNombre() {
-        return nombre;
-    }
-
     public int getIdTrabajador() {
         return idTrabajador;
     }
 
-    public double pagar(){
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public double pagar() {
         return 0.0;
     }
 
