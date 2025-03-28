@@ -17,7 +17,6 @@ public class Banco {
     public String toString() {
         return "Banco { Nombre: " + nombre +
                 " Dirección: " + direccion +
-                " Cuenta: " + cuenta + "}";
+                " " + cuenta + "}";
     }
-
 }
