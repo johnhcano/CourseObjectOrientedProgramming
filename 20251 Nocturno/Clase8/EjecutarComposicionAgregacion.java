@@ -3,7 +3,6 @@ public class EjecutarComposicionAgregacion {
     public static void main(String[] args) {
         
         //Creación de los objetos para validar el modelo
-
         Cuenta[] c = new Cuenta[2]; //Creación de una estructura de arreglos para las cuentas
         c[0] = new Cuenta(10203456, "Ahorros", 2000.0);
         c[1] = new Cuenta(20250106, "Corriente", 5000.0);
