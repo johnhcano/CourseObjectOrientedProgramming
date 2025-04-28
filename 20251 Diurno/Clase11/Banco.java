@@ -15,7 +15,7 @@ public class Banco {
     }
 
     public String toString(){
-        return "Banco { id: " + id + " Nombre " + nombre + " Cuenta { " +  cuenta + " }}";
+        return "Banco { id: " + id + " Nombre " + nombre + " " +  cuenta + " }";
     }
     
 }
