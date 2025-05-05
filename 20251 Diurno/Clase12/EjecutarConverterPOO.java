@@ -6,8 +6,8 @@ public class EjecutarConverterPOO {
         Converter objPostScript = new PostScriptConverter("Libro", "c:Libros");
         Converter objPDF = new PDFConverter("Libro", "c:libros");
 
-        Reader objLector1 = new Reader("LINE", objPostScript); //Elemento --> LINE-PARAGRAPH-TABLE, objeto
-        Reader objLector2 = new Reader("PARAGRAPH", objASCII); //Elemento --> LINE-PARAGRAPH-TABLE, objeto
+        Reader objLector1 = new Reader("LINE", objPDF); //Elemento --> LINE-PARAGRAPH-TABLE, objeto
+        Reader objLector2 = new Reader("LINE", objASCII); //Elemento --> LINE-PARAGRAPH-TABLE, objeto
 
         objLector1.parseInput();
         objLector2.parseInput();
