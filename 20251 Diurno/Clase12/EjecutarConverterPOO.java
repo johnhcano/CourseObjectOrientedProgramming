@@ -7,8 +7,10 @@ public class EjecutarConverterPOO {
         Converter objPDF = new PDFConverter("Libro", "c:libros");
 
         Reader objLector1 = new Reader("LINE", objPostScript); //Elemento --> LINE-PARAGRAPH-TABLE, objeto
+        Reader objLector2 = new Reader("PARAGRAPH", objASCII); //Elemento --> LINE-PARAGRAPH-TABLE, objeto
 
         objLector1.parseInput();
+        objLector2.parseInput();
 
     }
 }
