@@ -1,7 +1,7 @@
 public class Reader {
 
     private String element;
-    private Converter converter;
+    private Converter converter; //Composición
 
     public Reader(String element, Converter converter){
         this.element = element;
