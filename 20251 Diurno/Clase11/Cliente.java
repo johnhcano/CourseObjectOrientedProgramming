@@ -7,7 +7,7 @@ public class Cliente {
         this.cedula = cedula;
         this.nombre = nombre;
     }
-
+    
     public String toString(){
         return "Cliente { Cedula: " + cedula + " Nombre: " + nombre + " }";
     }
