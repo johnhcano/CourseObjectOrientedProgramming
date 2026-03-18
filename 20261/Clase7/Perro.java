@@ -20,6 +20,10 @@ public class Perro extends Animal {
         System.out.println(getNombre() + " dice: ¡Guau!");
     }
 
+    public void buscarPelota() {
+        System.out.println(getNombre() + " fue a buscar la pelota.");
+    }
+
     @Override
     public String toString() {
         return "Perro[ " + super.toString() + ", Raza=" + raza + "]";
