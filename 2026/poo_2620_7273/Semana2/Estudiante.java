@@ -4,7 +4,6 @@ public class Estudiante {
     int id;
     String nombre;
     double nota;
-
     
 
 }
