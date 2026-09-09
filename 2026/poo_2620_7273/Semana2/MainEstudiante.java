@@ -13,6 +13,7 @@ public class MainEstudiante {
        objEstudiante2.nombre = "Fernanda";
        objEstudiante2.nota = 4.8;
 
+       /* 
        //Mostrar la información del objeto 1 (objEstudiante1)
        System.out.println(objEstudiante1.id);
        System.out.println(objEstudiante1.nombre);
@@ -22,5 +23,9 @@ public class MainEstudiante {
        System.out.println(objEstudiante2.id);
        System.out.println(objEstudiante2.nombre);
        System.out.println(objEstudiante2.nota);
+       */
+
+       objEstudiante1.mostrarInformacion();
+       objEstudiante2.mostrarInformacion();
     }    
 }
